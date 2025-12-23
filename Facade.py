@@ -27,7 +27,6 @@ class BitrateReader:
         print(f"reading {filename}")
 
     def convert_format(self, filename: str, format: str ) -> str:
-        self.read(filename)
         print("audio not fixed, don't forget to fix it" )
         return filename.strip(".")+format
 
