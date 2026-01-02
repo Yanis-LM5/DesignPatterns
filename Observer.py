@@ -10,6 +10,8 @@ Les observers concrêts réalisent une même interface
 L'observable est responsable de permettre aux observers de s'abonner à ses
 notifications. L'observable n'est pas au courant de ce que font les observers
 suite aux notifications.
+
+docstring
 """
 
 from abc import ABC, abstractmethod
